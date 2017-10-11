@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "is": {
+        "statusCode": 201,
+        "body": {
+          "result":"created"
+        },
+        "headers": {
+          "content-type": "application/json;charset=utf-8"
+        }
+      }
+    }
+  ],
+  "predicates": [
+    {
+      "equals": {
+        "method": "POST",
+        "path": "/post",
+        "body":{
+          "name":"mm"
+        }
+      }
+    }
+  ]
+}

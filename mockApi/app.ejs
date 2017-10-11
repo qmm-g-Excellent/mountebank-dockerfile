@@ -1,0 +1,19 @@
+{
+    "port": 8001,
+    "protocol": "http",
+    "name": "r2s",
+    "defaultResponse": {
+    "statusCode": 400,
+    "body": {
+        "text": "Bad Request"
+    },
+    "headers": {
+        "content-type": "application/json;charset=utf-8"
+    }
+    },
+    "stubs": [
+        <% include getInfo.json %>,
+        <% include postInfo.json%>
+
+    ]
+}

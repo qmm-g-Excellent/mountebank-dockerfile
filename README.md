@@ -1,0 +1,1 @@
+ 关于Dockerfile的具体操作，参考我的这篇简书：http://www.jianshu.com/p/95e1eba67696

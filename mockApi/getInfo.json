@@ -1,0 +1,25 @@
+{
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "body": {
+          "id": 1,
+          "name": "敏敏",
+          "address": "东直门"
+        },
+        "headers": {
+          "content-type": "application/json;charset=utf-8"
+        }
+      }
+    }
+  ],
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/info"
+      }
+    }
+  ]
+}
