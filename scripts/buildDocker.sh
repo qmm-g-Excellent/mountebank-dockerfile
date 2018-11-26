@@ -6,5 +6,5 @@ else
   VERSION="0.0.$BUILD_NUMBER"
 fi
 
-docker build -t daimler/mountebank-server:$VERSION .
-docker tag daimler/mountebank-server:$VERSION daimler/mountebank-server:latest
+docker build -t dockerStudy/mountebank-server:$VERSION .
+docker tag dockerStudy/mountebank-server:$VERSION dockerStudy/mountebank-server:latest
